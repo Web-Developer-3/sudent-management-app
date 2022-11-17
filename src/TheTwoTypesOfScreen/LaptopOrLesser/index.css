@@ -1,0 +1,102 @@
+/* ! BreadCrumb Font Family */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans,wght@1,700&display=swap');
+
+/* * Big Device App File */
+.BigDeviceApp{
+    display: flex;
+    height: 10000px;
+    /* background-color: #333; */
+}
+/* * AppLeft File */
+.AppLeft{
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.033);
+    border-radius: 25px;
+    margin: 25px;
+    position: fixed;
+    height: 660px;
+    width: 19.5%;
+}
+.AppLeft > .logo{
+    height: 300px;
+    margin: 15px 100px 100px 110px;
+}
+.AppLeft > .logo > .logo-text{
+    width: 150px !important;
+    margin-top: 30px;
+    margin-left: -41px;
+}
+/* * App Right File */
+.AppRight{
+    margin-left: 350px !important;
+    margin-top: 25px;
+    width: 100% !important;
+}
+.AppRight > .header {
+    background: rgba( 255, 255, 255, 0 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 16px;
+    position: sticky;
+    top: 25px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.AppRight > .header > .header-left > .breadcrumbs{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
+}
+.AppRight > .header > .header-left > .PageTitle{
+    font-size: 34px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold !important;
+    letter-spacing: 0.5px;
+    color: #1b254b;
+}
+.AppRight > .header > .header-right {
+    background-color: #fff;
+    align-items: center;
+    width: 225px;
+    box-shadow: rgb(112 144 176 / 18%) 14px 17px 40px 4px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.AppRight > .header > .header-right > .account-btn{
+    background-color: #11047a;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 13px !important;
+    padding-left: 9.5px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.AppRight > .header > .header-right > .chat-btn{
+    color: #ccc;
+    font-size: 0.1rem;
+}
+.AppRight > .header > .header-right > .notification-btn{
+    color: #ccc;
+    font-size: 0.1rem;
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+}
+.App_right{
+    margin: 10px;
+    width: 35%;
+}
+.App_left{
+    width: 65%;
+    margin: 10px;
+}

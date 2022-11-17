@@ -1,10 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import BigDeviceApp from './TheTwoTypesOfScreen/LaptopOrLesser/BigDeviceApp';
 
 function App() {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <BigDeviceApp />
+      </div>
+    </BrowserRouter>
   );
 }
 
