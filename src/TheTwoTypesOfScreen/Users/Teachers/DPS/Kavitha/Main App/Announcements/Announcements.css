@@ -1,0 +1,91 @@
+.announcements{
+    box-shadow: rgba(112, 144, 176, 0.08) 14px 17px 40px 4px;
+    border-radius: 30px;
+    padding: 20px;
+    max-height: 440px;
+    overflow-y: scroll;
+}
+.announcements::-webkit-scrollbar{
+    width: 0px;
+}
+.announcements-nav{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.announcements-nav > .title{
+    color: #1b2559;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 1px;
+}
+.announcements-nav > .announcements-external-link{
+    background-color: #f4f7fe;
+    color: #a3aed0 !important;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    transition-duration: 1s;
+    padding-right: 10px;
+}
+.announcements-nav > .announcements-external-link:hover{
+    background-color: #e2e8f0;
+}
+.announcements-rendered > .announcement{
+    box-shadow: rgba(112, 144, 176, 0.08) 14px 17px 40px 4px;
+    margin: 15px;
+    padding: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.announcements-rendered > .announcement > .announcement-title{
+    color: #1b2559;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    /* border-bottom: 3px solid #333; */
+}
+.announcements-rendered > .announcement > .announcement-msg{
+    box-shadow: rgba(112, 144, 176, 0.08) 14px 17px 40px 4px;
+    padding: 20px;
+    background-color: #2e365f;
+    color: #fff;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 20px;
+    max-height: 190px;
+    overflow-y: scroll;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 1px;
+}
+.announcements-rendered > .announcement > .announcement-msg::-webkit-scrollbar{
+    width: 0;
+}
+.announcements-rendered > .announcement > .announcement-profile{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.announcements-rendered > .announcement > .announcement-profile > .profile-icon{
+    background-color: #1b2559;
+    color: #fff;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    border-radius: 50%;
+}
+.announcements-rendered > .announcement > .announcement-profile > .profile-name{
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+hr{
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}

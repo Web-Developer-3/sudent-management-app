@@ -1,6 +1,6 @@
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-import BigDeviceApp from './TheTwoTypesOfScreen/LaptopOrLesser/BigDeviceApp';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import BigDeviceApp from "./TheTwoTypesOfScreen/LaptopOrLesser/BigDeviceApp";
 
 function App() {
   return (

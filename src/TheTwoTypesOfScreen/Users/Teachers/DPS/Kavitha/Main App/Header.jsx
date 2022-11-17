@@ -8,6 +8,7 @@ import {
   NotificationsRounded,
 } from "@material-ui/icons";
 import React from "react";
+import "../index.css";
 
 const Header = () => {
   return (

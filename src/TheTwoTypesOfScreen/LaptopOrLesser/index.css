@@ -4,7 +4,7 @@
 /* * Big Device App File */
 .BigDeviceApp{
     display: flex;
-    height: 10000px;
+    /* height: 10000px; */
     /* background-color: #333; */
 }
 /* * AppLeft File */
@@ -16,7 +16,7 @@
     margin: 25px;
     position: fixed;
     height: 660px;
-    width: 19.5%;
+    width: 20%;
 }
 .AppLeft > .logo{
     height: 300px;
@@ -37,7 +37,7 @@
     background: rgba( 255, 255, 255, 0 );
     backdrop-filter: blur( 15px );
     -webkit-backdrop-filter: blur( 20px );
-    border-radius: 16px;
+    border-radius: 20px;
     position: sticky;
     top: 25px;
     width: 95%;
@@ -64,7 +64,10 @@
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 .AppRight > .header > .header-right > .account-btn{
     background-color: #11047a;
@@ -94,9 +97,10 @@
 }
 .App_right{
     margin: 10px;
-    width: 35%;
 }
 .App_left{
-    width: 65%;
+    width: 62%;
+    border-right: 1px solid #E9EDF7;
     margin: 10px;
+    padding-right: 20px;
 }
